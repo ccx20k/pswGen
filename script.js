@@ -33,6 +33,11 @@ function pswGener(){
         values += specChar
     }
 
+    if (values.length === 0) {
+        alert ("You cannot have a password with no characters")
+        return;
+    }
+
     // loop to select characters to .length of lenSel
     for (let i = 0; i <= lenSel; i++){
         password = password + values.charAt(Math.floor(Math.random() * Math.floor(values.length -1)));
@@ -42,6 +47,7 @@ function pswGener(){
     document.getElementById("password").value = password;
 }
 
+// copy button logic
 document.querySelector("#copy").onclick = function(){
     document.querySelector("#password").select();
     document.execCommand('copy');

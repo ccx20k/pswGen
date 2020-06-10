@@ -41,3 +41,8 @@ function pswGener(){
     //display gen'd password
     document.getElementById("password").value = password;
 }
+
+document.querySelector("#copy").onclick = function(){
+    document.querySelector("#password").select();
+    document.execCommand('copy');
+}

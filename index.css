@@ -7,5 +7,17 @@
 }
 
 .content {
+    text-align: left;
+    display: flex;
     background-color: white;
+    margin: 2%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.btn-container {
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+    justify-content: space-between;
 }

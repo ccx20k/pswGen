@@ -17,6 +17,11 @@ function pswGener() {
     let wantsNums = confirm("Do you want upper numerical characters?")
     let wantsSpecChar = confirm("Do you want special characters?")
 
+    
+    // if (lenSel < 8 || lenSel > 128) {
+    //     alert("Pick a different number please!");
+    //     return;
+    // }
     if (wantsUpperCase === true) {
         values += upperCase
     }

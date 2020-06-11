@@ -19,7 +19,7 @@ function pswGener() {
 
     let wantsUpperCase = confirm("Do you want upper case characters?")
     let wantsLowerCase = confirm("Do you want lower case characters?")
-    let wantsNums = confirm("Do you want upper numerical characters?")
+    let wantsNums = confirm("Do you want numerical characters?")
     let wantsSpecChar = confirm("Do you want special characters?")
 
     

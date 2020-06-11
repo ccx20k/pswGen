@@ -7,6 +7,7 @@
     text-align: center;
     margin-right: auto;
     margin-left: auto;
+    border-radius: 20px;
 }
 
 .content {
@@ -17,17 +18,25 @@
     flex-direction: column;
     justify-content: center;
     padding: 25px;
+    border-radius: 20px;
 }
 #lenSel {
-    width: 25%;
+    /* width: 25%; */
     height: 35px;
     margin-bottom: 25px;
+    border-style: dashed;
+    border-color: silver;
+    text-align: center;
+    border-radius: 20px;
 }
 #password {
     height: 100px;
     border-width: 2px;
     border-style: dashed;
     border-color: silver;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
 }
 
 .btn-container {
@@ -37,14 +46,33 @@
     justify-content: space-around;
     padding: 10px;
     margin-top: 15px;
+    border-radius: 20px;
 }
 #generate {
-    width: 25%;
-    height: 35px;
-    background-color: teal;
+    width: 35%;
+    height: 45px;
+    background-color: red;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    opacity: 0.6;
+    /* transition: 0.3s;
+    cursor: pointer; */
 }
+
+/* not sure what i did wrong here.. */
+/* button:hover {opacity: 1;} */
+
 #copy {
-    width: 25%;
-    height: 35px;
-    background-color: silver;
+    width: 35%;
+    height: 45px;
+    background-color: wheat;
+    border-radius: 20px;
+    border: none;
+    color: #404040;
+    font-size: 16px;
+    opacity: 0.6;
+    /* transition: 0.3s;
+    cursor: pointer; */
 }

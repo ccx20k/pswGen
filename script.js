@@ -4,6 +4,11 @@ function pswGener() {
     //user sets psw length
     let lenSel = document.getElementById("lenSel").value;
 
+    if (lenSel < 8 || lenSel > 128) {
+        alert("Pick a different number please!");
+        return;
+    }
+
     let values = "";
     let upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     let lowerCase = "abcdefghijklmnopqrstuvwxyz";
@@ -18,10 +23,6 @@ function pswGener() {
     let wantsSpecChar = confirm("Do you want special characters?")
 
     
-    // if (lenSel < 8 || lenSel > 128) {
-    //     alert("Pick a different number please!");
-    //     return;
-    // }
     if (wantsUpperCase === true) {
         values += upperCase
     }

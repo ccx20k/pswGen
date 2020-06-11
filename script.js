@@ -1,5 +1,5 @@
 //Generates random psw
-function pswGener(){
+function pswGener() {
 
     //user sets psw length
     let lenSel = document.getElementById("lenSel").value;
@@ -34,13 +34,13 @@ function pswGener(){
     }
 
     if (values.length === 0) {
-        alert ("You cannot have a password with no characters")
+        alert("You cannot have a password with no characters")
         return;
     }
 
     // loop to select characters to .length of lenSel
-    for (let i = 0; i <= lenSel; i++){
-        password = password + values.charAt(Math.floor(Math.random() * Math.floor(values.length -1)));
+    for (let i = 0; i <= lenSel; i++) {
+        password = password + values.charAt(Math.floor(Math.random() * Math.floor(values.length - 1)));
     }
 
     //display gen'd password
@@ -48,7 +48,7 @@ function pswGener(){
 }
 
 // copy button logic
-document.querySelector("#copy").onclick = function(){
+document.querySelector("#copy").onclick = function () {
     document.querySelector("#password").select();
     document.execCommand('copy');
 }

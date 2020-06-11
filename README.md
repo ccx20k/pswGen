@@ -12,6 +12,7 @@ SO THAT I can create a strong password that provides greater security
 
 * The user first arrives at the webpage 
 * the user will then enter the desired number of characters long the password will be 
+* if the user does not enter a number appropriate to the string length limits they will be alerted to choose a different number
 * the user should then click the 'Generate Password" button
 * 4 prompts will appear asking if the user would like to: use lower case characters; use upper case characters; use special characters; use numerical characters; 
 * if the user decides to reject all of them they will reset the cycle and will need to start from clicking the 'Generate Password' button again

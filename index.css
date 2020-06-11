@@ -1,10 +1,12 @@
 .container {
     display: flex;
-    background-color: #D3D3D3;
+    background-color: #F0F0F0;
     width: 90%;
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .content {
@@ -16,6 +18,17 @@
     justify-content: center;
     padding: 25px;
 }
+#lenSel {
+    width: 25%;
+    height: 35px;
+    margin-bottom: 25px;
+}
+#password {
+    height: 100px;
+    border-width: 2px;
+    border-style: dashed;
+    border-color: silver;
+}
 
 .btn-container {
     display: flex;
@@ -23,7 +36,7 @@
     flex-direction: row;
     justify-content: space-around;
     padding: 10px;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 #generate {
     width: 25%;

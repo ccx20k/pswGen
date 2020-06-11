@@ -18,3 +18,6 @@ SO THAT I can create a strong password that provides greater security
 * if the user decides to reject all of them they will reset the cycle and will need to start from clicking the 'Generate Password' button again
 * once the user has decided which characters they would like to have included the randomly generated password will appear in the text box 
 * the user will then be able to copy the random password to their clipboard by clicking the 'Copy to Clipboard' button 
+
+Link to my github: [https://github.com/ccx20k/pswGen]
+Link to my hosted page: [https://ccx20k.github.io/pswGen/]

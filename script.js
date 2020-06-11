@@ -9,6 +9,7 @@ function pswGener() {
         return;
     }
 
+    //password generation back end
     let values = "";
     let upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     let lowerCase = "abcdefghijklmnopqrstuvwxyz";
@@ -17,6 +18,7 @@ function pswGener() {
 
     let password = ""
 
+    //questionaire
     let wantsUpperCase = confirm("Do you want upper case characters?")
     let wantsLowerCase = confirm("Do you want lower case characters?")
     let wantsNums = confirm("Do you want numerical characters?")
